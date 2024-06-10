@@ -8,13 +8,13 @@ Proposed Data Model according the data in ogs is also available in the Folder Da
 
 ## Setup
 
-1. **Clone the repository**:
+1. Clone the repository:
    
-   git clone https://github.com/your-repo/subscriber-balance-analysis.git
+   git clone https://github.com/umairdhillon/subscriber-balance-analysis.git
    cd subscriber-balance-analysis
    
 
-2. **Build and run the Docker container**:
+2. Build and run the Docker container:
    
    docker build -t subscriber-balance-analysis .
    docker run -v $(pwd)/output:/app/output subscriber-balance-analysis
@@ -22,10 +22,10 @@ Proposed Data Model according the data in ogs is also available in the Folder Da
 
 ## Implementation Details
 
-- **Python**: For data processing and analysis.
-- **pandas**: For data manipulation.
-- **CSV files**: For storing transaction data.
-- **Docker**: To containerize the application for easy deployment.
+- Python: For data processing and analysis.
+- pandas: For data manipulation.
+- CSV files: For storing transaction data.
+- Docker: To containerize the application for easy deployment.
 
 ## Future Improvements
 
